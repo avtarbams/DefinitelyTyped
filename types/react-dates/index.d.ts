@@ -63,6 +63,7 @@ declare namespace ReactDates {
         small?: boolean,
         regular?: boolean,
         keepFocusOnInput?: boolean,
+        inputIconPosition?: IconPositionShape,
 
         // calendar presentation and interaction related props
         renderMonthText?: (day: momentPropTypes.momentObj) => (string | JSX.Element),
